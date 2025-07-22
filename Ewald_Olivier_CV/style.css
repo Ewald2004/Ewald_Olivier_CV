@@ -5,14 +5,20 @@
 }
 
 :root {
-    --ribbon: #003333;
+    --ribbon: #006666;
     --secondary: #764ba2;
-    --accent: #f093fb;
+    --accent: #00a9a9;
     --dark: #1a1a2e;
     --darker: #16213e;
     --light: #eee;
-    --text-light: #a8a8a8;
+    --text: #b5b5b5;
 }
+
+/*--text-light
+    
+
+
+*/
 
 body {
     font-family: Tahoma;
@@ -33,7 +39,7 @@ nav {
     width: 100%;
     padding: 1rem 1rem;
     background: var(--ribbon);
-    font-size: 2rem;
+    font-size: 2.5rem;
 }
 
 
@@ -45,8 +51,6 @@ nav {
 }
 
 
-
-/*The way the labels are displayed in the navigation bar*/
 .nav-links {
     display: flex;
     list-style: none;
@@ -54,15 +58,76 @@ nav {
     text-align: center;
 }
 
-    .nav-links a {
-        color: var(--light);
-        text-decoration: none;
-        position: relative;
+.nav-links a {
+    color: var(--light);
+    text-decoration: none;
+    position: relative;
+}
+
+    .nav-links a:hover {
+        
+        color: var(--accent);
     }
 
-        .nav-links a:hover {
-            color: var(--accent);
-        }
+
+
+
+
+
+
+section {
+    padding: 6rem 2rem;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.section-title {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 3rem;
+    color: var(--accent);
+}
+
+
+
+
+
+
+
+
+
+
+/* Profile */
+.profile-content {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 3rem;
+    align-items: center;
+}
+
+.profile-text {
+    font-size: 1.1rem;
+    color: var(--text);
+    line-height: 1.8;
+}
+
+
+.profile-img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;   
+    align-items: center;
+    justify-content: center;  
+    transition: transform 0.3s ease;
+}
+
+    .profile-img:hover {
+        transform: scale(1.05);
+    }
+
+
+
+
 
 
 
