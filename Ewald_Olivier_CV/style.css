@@ -25,8 +25,8 @@ body {
     color: var(--light);
     line-height: 1.6;
     overflow-x: hidden;
-    background-color: #003333;
-    background: linear-gradient(135deg, var(--dark) 0%, var(--darker) 100%);
+    
+    background: var(--darker);
 }
 
 
@@ -144,6 +144,7 @@ section {
     margin-top: 2rem;
 }
 
+
 .skill-category {
     padding: 2rem;
     border-radius: 15px;
@@ -175,3 +176,35 @@ section {
     background: #003333;
     border-radius: 4px;
 }
+
+
+/*Work*/
+.work-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+
+.work-category {
+    padding: 2rem;
+    border-radius: 15px;
+    border: 1px solid white;
+}
+
+    .work-category:hover {
+        transform: scale(1.07);
+    }
+.work-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem 0;
+}
+
+
+
+
+
+
