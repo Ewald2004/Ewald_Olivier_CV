@@ -1,0 +1,139 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --ribbon: #006666;
+    --secondary: #764ba2;
+    --accent: #00a9a9;
+    --dark: #1a1a2e;
+    --darker: #16213e;
+    --light: #eee;
+    --text: #b5b5b5;
+}
+
+/*--text-light
+    
+
+
+*/
+
+body {
+    font-family: Tahoma;
+    color: var(--light);
+    line-height: 1.6;
+    overflow-x: hidden;
+    background-color: #006666;
+}
+
+
+
+
+
+
+
+nav {
+    position: fixed;
+    width: 100%;
+    padding: 1rem 1rem;
+    background: var(--ribbon);
+    font-size: 2.5rem;
+}
+
+
+.nav-container {
+    max-width: 100px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+    text-align: center;
+}
+
+.nav-links a {
+    color: var(--light);
+    text-decoration: none;
+    position: relative;
+}
+
+    .nav-links a:hover {
+        
+        color: var(--accent);
+    }
+
+
+
+
+
+
+
+section {
+    padding: 6rem 2rem;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.section-title {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 3rem;
+    color: var(--accent);
+}
+
+
+
+
+
+
+
+
+
+
+/* Profile */
+.profile-content {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 3rem;
+    align-items: center;
+}
+
+.profile-text {
+    font-size: 1.1rem;
+    color: var(--text);
+    line-height: 1.8;
+}
+
+
+.profile-img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;   
+    align-items: center;
+    justify-content: center;  
+    transition: transform 0.3s ease;
+}
+
+    .profile-img:hover {
+        transform: scale(1.05);
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
