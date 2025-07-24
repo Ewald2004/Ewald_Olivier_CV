@@ -7,8 +7,6 @@
 :root {
     --ribbon: #a0d6b4;
     --accent: #a0d6b4;
-    --dark: #1a1a2e;
-    --darker: #16213e;
     --light: #eee;
     --text: #000000;
 }
@@ -23,8 +21,7 @@ body {
     font-family: Tahoma;
     color: var(--light);
     line-height: 1.6;
-    overflow-x: hidden;
-    
+    overflow-x: hidden;   
     background: #eee;
 }
 
@@ -171,7 +168,7 @@ section {
 .skill-bar {
     width: 60%;
     height: 8px;
-    background: #eee;
+    background: #808080;
     border-radius: 5px;
 }
 
@@ -255,14 +252,14 @@ section {
 
 
 .socials-item {
-    font-size: 2rem;
+    font-size: 7rem;
     color: var(--text);
-    display: flex;
+    display: contents ;
     justify-content: space-between;
-    align-items: center;
     margin: 0.5rem;
     
 }
+
 
 
 
