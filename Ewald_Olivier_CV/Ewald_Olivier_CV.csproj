@@ -67,7 +67,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="cv_html.html" />
+    <Content Include="index.html" />
     <Content Include="img\Image.jpg" />
     <Content Include="img\MatricResults.jpg" />
     <Content Include="style.css" />

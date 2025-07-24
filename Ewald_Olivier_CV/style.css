@@ -6,11 +6,11 @@
 
 :root {
     --ribbon: #003333;
-    --accent: #a0d6b4;
+    --accent: #000000;
     --dark: #1a1a2e;
     --darker: #16213e;
     --light: #eee;
-    --text: #b5b5b5;
+    --text: #000000;
 }
 
 
@@ -38,12 +38,11 @@ ribbon {
     position: fixed;
     width: 100%;
     padding: 1rem 1rem;
-    background: #003333;
+    background: #a0d6b4;
     font-size: 1.5rem;
     background: linear-gradient(135deg, var(--dark) 0%, var(--darker) 100%);
     z-index: 100;
     display: block;
-
 }
 
 
