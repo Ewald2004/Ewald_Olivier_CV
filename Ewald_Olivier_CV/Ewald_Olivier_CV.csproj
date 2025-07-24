@@ -69,6 +69,7 @@
   <ItemGroup>
     <Content Include="cv_html.html" />
     <Content Include="img\Image.jpg" />
+    <Content Include="img\MatricResults.jpg" />
     <Content Include="style.css" />
     <Content Include="Web.config" />
   </ItemGroup>
