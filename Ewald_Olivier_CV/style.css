@@ -5,8 +5,8 @@
 }
 
 :root {
-    --ribbon: #003333;
-    --accent: #000000;
+    --ribbon: #a0d6b4;
+    --accent: #a0d6b4;
     --dark: #1a1a2e;
     --darker: #16213e;
     --light: #eee;
@@ -25,7 +25,7 @@ body {
     line-height: 1.6;
     overflow-x: hidden;
     
-    background: var(--darker);
+    background: #eee;
 }
 
 
@@ -39,8 +39,7 @@ ribbon {
     width: 100%;
     padding: 1rem 1rem;
     background: #a0d6b4;
-    font-size: 1.5rem;
-    background: linear-gradient(135deg, var(--dark) 0%, var(--darker) 100%);
+    font-size: 1.5rem;   
     z-index: 100;
     display: block;
 }
@@ -68,7 +67,7 @@ ribbon {
     }
 
         .ribbon-links a:hover {
-            color: var(--accent);
+            color: var(--text);
         }
 
 
@@ -152,6 +151,7 @@ section {
     border-radius: 15px;
     border: 1px solid var(--accent);
     transition: transform 0.3s ease;
+    color: var(--text);
 }
 
     .skill-category:hover {
@@ -196,6 +196,7 @@ section {
     border-radius: 15px;
     border: 1px solid var(--accent);
     transition: transform 0.3s ease;
+    color: var(--text);
 }
 
     .work-category:hover {
@@ -245,6 +246,7 @@ section {
     border-radius: 15px;
     border: 1px solid var(--accent);
     transition: transform 0.3s ease;
+    color: var(--text);
 }
 
     .per-category:hover {
@@ -259,6 +261,7 @@ section {
     justify-content: space-between;
     align-items: center;
     margin: 0.5rem;
+    
 }
 
 
