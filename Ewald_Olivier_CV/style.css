@@ -208,3 +208,35 @@ section {
 
 
 
+.work-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+
+.work-category {
+    padding: 2rem;
+    border-radius: 15px;
+    border: 1px solid white;
+}
+
+    .work-category:hover {
+        transform: scale(1.07);
+    }
+
+.work-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem 0;
+}
+
+
+
+
+
+
+
+
